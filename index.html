@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Document</title>
 </head>
-<body> 
+<body class="body"> 
   <header id="header">
-    <img id="header-img" src="img/fon.png" alt="fon">
-    <nav id="nav-bar">
+    <nav id="nav-bar" class="nav-bar">
+    <div class="container">
+      <div class="header-nav__logo">Vacation</div>
+      <div class="header-nav__menu">
   <a class="nav-link" href="#header">About Us</a>
-  <a class="nav-link" href="#header">Find Us</a>
-  <a class="nav-link" href="#header">Products</a>
+  <a class="nav-link" href="#header-img">Find Us</a>
+  <a class="nav-link" href="#nav-bar">Products</a>
+</div>
+    </div>
     </nav>
-    <br>
-    <br>
-    <br>
-         <p>Vacation</p>
-         <img id="heder-img"src=img/viking.svg" alt="gory">
+         <p class="title">Relx</p>
+         <img id="header-img" src="img/fon.png" width="600" alt="fon">
   </header>
-   <main>
-    <video id="video" controls> Video <source src="https://www.youtube.com/watch?v=cW1c9fH-QDc"> 
+   <main class="main"
+   <p>Video</p>
+   <div class="video">
+    <video id="video" src="https://www.youtube.com/watch?v=cW1c9fH-QDc"> 
       </video>
+   </div>
       <form id="form" action="https://www.frecodecamp.com/email-submit"> 
         <input id="email" type="email" name="email" placeholder="youremail@.com"> </input>
         <input id="submit" type="submit" name="email"> </input>
@@ -36,7 +41,7 @@
 
         </script>
    <div id="fcc_test_suite_wrapper"
-   style="position: relative !important; z-index: 99999 !important;"></div>"
+   style="position: relative !important; z-index: 99999 !important;"></div>
    <footer class="footer"
    id="footer">
   </footer>
